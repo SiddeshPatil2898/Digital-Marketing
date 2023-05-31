@@ -14,14 +14,16 @@ Columns Explanation
 •	item_similarity: A matrix representing the similarity between items using cosine similarity. It is computed based on the item_matrix.
 •	top_similar_items: A dictionary that stores the top N similar items for each item. It is computed based on the item_similarity matrix.
 # Neural Network Model for Hybrid Filtering
-•	user_input: Input layer for the user ID.
-•	item_input: Input layer for the item ID.
-•	embedding_dim: The dimension of the embedding for users and items.
-•	num_items: The number of unique items in the customer_data DataFrame.
-•	user_embedding: Embedding layer for the user ID.
-•	item_embedding: Embedding layer for the item ID.
-•	dot_product: Dot product between user and item embeddings.
-•	output: Output layer of the model.
+- `user_input`: Input layer for the user ID.
+- `item_input`: Input layer for the item ID.
+- `embedding_dim`: The dimension of the embedding for users and items.
+- `num_items`: The number of unique items in the `customer_data` DataFrame.
+- `user_embedding`: Embedding layer for the user ID.
+- `item_embedding`: Embedding layer for the item ID.
+- `dot_product`: Dot product between user and item embeddings.
+- `output`: Output layer of the model.
+- `model`: The compiled neural network model that takes user and item inputs and predicts the purchase probability.
+
 •	model: The compiled neural network model that takes user and item inputs and predicts the purchase probability.
 # Data Visualization
 •	user_item_matrix: Heatmap plot of the user-item matrix.
