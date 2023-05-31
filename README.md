@@ -41,4 +41,3 @@ To use the recommendation system and visualize the data, follow these steps:
 11.	Visualize the user-item matrix heatmap.
 12.	Visualize the item-item matrix heatmap.
 Note: Make sure to have the required dependencies installed, such as pandas, sklearn, tensorflow, matplotlib, seaborn, and numpy.
-Feel free to modify and adapt the code to fit your specific use case.
