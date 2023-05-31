@@ -1,9 +1,9 @@
 # Mechanical Shop Recommendation System
 
 This repository contains code for a recommendation system for a mechanical shop. The system utilizes collaborative filtering and content-based filtering techniques, as well as a neural network model for hybrid filtering. It also includes data preprocessing steps and data visualization.
-Columns Explanation
+# Columns Explanation
 # Preprocessing and Data Loading
-•	customer_data: A DataFrame that contains historical customer data. It is loaded from a CSV file called "synthetic_data.csv".
+- `customer_data`: A DataFrame that contains historical customer data. It is loaded from a CSV file called "synthetic_data.csv".
 # Collaborative Filtering
 •	user_item_matrix: A pivot table that represents the user-item matrix. It is computed from the customer_data DataFrame and contains user ratings for each item. If a user hasn't rated an item, the value is filled with 0.
 •	user_similarity: A matrix that represents the similarity between users using cosine similarity. It is computed based on the user_item_matrix.
