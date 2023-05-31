@@ -9,7 +9,7 @@ Collaborative Filtering
 •	user_similarity: A matrix that represents the similarity between users using cosine similarity. It is computed based on the user_item_matrix.
 •	N: The number of similar users to consider for each user.
 •	top_similar_users: A dictionary that stores the top N similar users for each user. It is computed based on the user_similarity matrix.
-Content-based Filtering
+Content-based Filtering.
 •	item_matrix: A matrix representing the item-item matrix using TF-IDF vectors. It is computed from the item descriptions in the customer_data DataFrame.
 •	item_similarity: A matrix representing the similarity between items using cosine similarity. It is computed based on the item_matrix.
 •	top_similar_items: A dictionary that stores the top N similar items for each item. It is computed based on the item_similarity matrix.
